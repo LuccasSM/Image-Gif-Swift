@@ -21,16 +21,17 @@ class ViewController: UIViewController {
     private lazy var image: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
-        image.image = UIImage.gifImageWithName("successfullyPix")
+        image.image = UIImage.gifImageWithName("successfullyPixOne")
         image.contentMode = .scaleAspectFill
         return image
     }()
     
     func setupLayout() {
         NSLayoutConstraint.activate([
-            image.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width),
-            image.heightAnchor.constraint(equalToConstant: 230),
+            image.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width - 40),
+            image.heightAnchor.constraint(equalToConstant: 200),
             image.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8),
+            image.centerXAnchor.constraint(equalTo: view.centerXAnchor),
         ])
     }
 }

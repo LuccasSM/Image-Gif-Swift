@@ -143,7 +143,7 @@ extension UIImage {
             
             let delaySeconds = UIImage.delayForImageAtIndex(Int(i),
                                                             source: source)
-            delays.append(Int(delaySeconds * 170.0)) // Seconds to ms
+            delays.append(Int(delaySeconds * 200.0)) // Seconds to ms
         }
         
         let duration: Int = {
