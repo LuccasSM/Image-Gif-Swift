@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAE4D1D786728D9F8D831105 /* Pods_Image_Gif_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868D71DC13DC7DC3F0DD0995 /* Pods_Image_Gif_Swift.framework */; };
+		F871EF6929705759003FA683 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = F871EF6829705759003FA683 /* success.json */; };
 		F8AB54EB296F5133005BA288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB54EA296F5133005BA288 /* AppDelegate.swift */; };
 		F8AB54ED296F5133005BA288 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB54EC296F5133005BA288 /* SceneDelegate.swift */; };
 		F8AB54EF296F5133005BA288 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB54EE296F5133005BA288 /* ViewController.swift */; };
 		F8AB54F2296F5133005BA288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8AB54F0296F5133005BA288 /* Main.storyboard */; };
 		F8AB54F7296F5134005BA288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8AB54F5296F5134005BA288 /* LaunchScreen.storyboard */; };
-		F8AB54FF296F514E005BA288 /* successfullyPixTwo.gif in Resources */ = {isa = PBXBuildFile; fileRef = F8AB54FE296F514E005BA288 /* successfullyPixTwo.gif */; };
 		F8AB5502296F5241005BA288 /* SetupGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB5501296F5241005BA288 /* SetupGif.swift */; };
-		F8AB5506296FA178005BA288 /* successfullyPixOne.gif in Resources */ = {isa = PBXBuildFile; fileRef = F8AB5505296FA178005BA288 /* successfullyPixOne.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37BA10325CED176F35C10A23 /* Pods-Image-Gif-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image-Gif-Swift.release.xcconfig"; path = "Target Support Files/Pods-Image-Gif-Swift/Pods-Image-Gif-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		868D71DC13DC7DC3F0DD0995 /* Pods_Image_Gif_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Image_Gif_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD485F21BF6B449C56569E97 /* Pods-Image-Gif-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image-Gif-Swift.debug.xcconfig"; path = "Target Support Files/Pods-Image-Gif-Swift/Pods-Image-Gif-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		F871EF6829705759003FA683 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 		F8AB54E7296F5133005BA288 /* Image-Gif-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image-Gif-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AB54EA296F5133005BA288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8AB54EC296F5133005BA288 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,9 +29,7 @@
 		F8AB54F1296F5133005BA288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8AB54F6296F5134005BA288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8AB54F8296F5134005BA288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8AB54FE296F514E005BA288 /* successfullyPixTwo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = successfullyPixTwo.gif; sourceTree = "<group>"; };
 		F8AB5501296F5241005BA288 /* SetupGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupGif.swift; sourceTree = "<group>"; };
-		F8AB5505296FA178005BA288 /* successfullyPixOne.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = successfullyPixOne.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE4D1D786728D9F8D831105 /* Pods_Image_Gif_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06A570995897829E7F596AAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD485F21BF6B449C56569E97 /* Pods-Image-Gif-Swift.debug.xcconfig */,
+				37BA10325CED176F35C10A23 /* Pods-Image-Gif-Swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8636182BE5D5ED409E9CA0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				868D71DC13DC7DC3F0DD0995 /* Pods_Image_Gif_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F8AB54DE296F5133005BA288 = {
 			isa = PBXGroup;
 			children = (
 				F8AB54E9296F5133005BA288 /* Image-Gif-Swift */,
 				F8AB54E8296F5133005BA288 /* Products */,
+				06A570995897829E7F596AAF /* Pods */,
+				C8636182BE5D5ED409E9CA0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,19 +96,18 @@
 		F8AB5500296F5169005BA288 /* Gifs */ = {
 			isa = PBXGroup;
 			children = (
-				F8AB5504296F58B7005BA288 /* Images */,
+				F8AB5504296F58B7005BA288 /* Json */,
 				F8AB5501296F5241005BA288 /* SetupGif.swift */,
 			);
 			path = Gifs;
 			sourceTree = "<group>";
 		};
-		F8AB5504296F58B7005BA288 /* Images */ = {
+		F8AB5504296F58B7005BA288 /* Json */ = {
 			isa = PBXGroup;
 			children = (
-				F8AB5505296FA178005BA288 /* successfullyPixOne.gif */,
-				F8AB54FE296F514E005BA288 /* successfullyPixTwo.gif */,
+				F871EF6829705759003FA683 /* success.json */,
 			);
-			path = Images;
+			path = Json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8AB54FB296F5134005BA288 /* Build configuration list for PBXNativeTarget "Image-Gif-Swift" */;
 			buildPhases = (
+				862E4AC1D2799DC5BAE3D353 /* [CP] Check Pods Manifest.lock */,
 				F8AB54E3296F5133005BA288 /* Sources */,
 				F8AB54E4296F5133005BA288 /* Frameworks */,
 				F8AB54E5296F5133005BA288 /* Resources */,
+				AD204C6FB3F2149218C9E577 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,13 +171,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8AB54F7296F5134005BA288 /* LaunchScreen.storyboard in Resources */,
-				F8AB54FF296F514E005BA288 /* successfullyPixTwo.gif in Resources */,
-				F8AB5506296FA178005BA288 /* successfullyPixOne.gif in Resources */,
+				F871EF6929705759003FA683 /* success.json in Resources */,
 				F8AB54F2296F5133005BA288 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		862E4AC1D2799DC5BAE3D353 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Image-Gif-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD204C6FB3F2149218C9E577 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image-Gif-Swift/Pods-Image-Gif-Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image-Gif-Swift/Pods-Image-Gif-Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Image-Gif-Swift/Pods-Image-Gif-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8AB54E3296F5133005BA288 /* Sources */ = {
@@ -306,6 +370,7 @@
 		};
 		F8AB54FC296F5134005BA288 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD485F21BF6B449C56569E97 /* Pods-Image-Gif-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -336,6 +401,7 @@
 		};
 		F8AB54FD296F5134005BA288 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37BA10325CED176F35C10A23 /* Pods-Image-Gif-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
