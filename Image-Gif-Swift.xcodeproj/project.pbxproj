@@ -100,20 +100,20 @@
 		F8AB5500296F5169005BA288 /* Gifs */ = {
 			isa = PBXGroup;
 			children = (
-				F8AB5504296F58B7005BA288 /* Json */,
+				F8AB5504296F58B7005BA288 /* Images-Json */,
 				F8AB5501296F5241005BA288 /* SetupGif.swift */,
 			);
 			path = Gifs;
 			sourceTree = "<group>";
 		};
-		F8AB5504296F58B7005BA288 /* Json */ = {
+		F8AB5504296F58B7005BA288 /* Images-Json */ = {
 			isa = PBXGroup;
 			children = (
 				F871EF6A297058DB003FA683 /* successfullyPixOne.gif */,
 				F871EF6B297058DB003FA683 /* successfullyPixTwo.gif */,
 				F871EF6829705759003FA683 /* success.json */,
 			);
-			path = Json;
+			path = "Images-Json";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
