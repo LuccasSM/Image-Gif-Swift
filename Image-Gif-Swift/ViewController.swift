@@ -16,8 +16,13 @@ class ViewController: UIViewController {
         title = "Informativo!"
         
         view.addSubview(image)
+        view.addSubview(animationView)
+        
+        setupAnimation()
         setupLayout()
     }
+    
+    let animationView = LottieAnimationView(name: "success")
     
     private lazy var image: UIImageView = {
         let image = UIImageView()
@@ -26,6 +31,13 @@ class ViewController: UIViewController {
         image.contentMode = .scaleAspectFill
         return image
     }()
+    
+    func setupAnimation() {
+        animationView.frame = CGRect(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 2, width: 120, height: 120)
+        animationView.contentMode = .scaleAspectFit
+        animationView.loopMode = .loop
+        animationView.play()
+    }
     
     func setupLayout() {
         NSLayoutConstraint.activate([

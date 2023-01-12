@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DAE4D1D786728D9F8D831105 /* Pods_Image_Gif_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868D71DC13DC7DC3F0DD0995 /* Pods_Image_Gif_Swift.framework */; };
 		F871EF6929705759003FA683 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = F871EF6829705759003FA683 /* success.json */; };
+		F871EF6C297058DB003FA683 /* successfullyPixOne.gif in Resources */ = {isa = PBXBuildFile; fileRef = F871EF6A297058DB003FA683 /* successfullyPixOne.gif */; };
+		F871EF6D297058DB003FA683 /* successfullyPixTwo.gif in Resources */ = {isa = PBXBuildFile; fileRef = F871EF6B297058DB003FA683 /* successfullyPixTwo.gif */; };
 		F8AB54EB296F5133005BA288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB54EA296F5133005BA288 /* AppDelegate.swift */; };
 		F8AB54ED296F5133005BA288 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB54EC296F5133005BA288 /* SceneDelegate.swift */; };
 		F8AB54EF296F5133005BA288 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB54EE296F5133005BA288 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 		868D71DC13DC7DC3F0DD0995 /* Pods_Image_Gif_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Image_Gif_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD485F21BF6B449C56569E97 /* Pods-Image-Gif-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image-Gif-Swift.debug.xcconfig"; path = "Target Support Files/Pods-Image-Gif-Swift/Pods-Image-Gif-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		F871EF6829705759003FA683 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		F871EF6A297058DB003FA683 /* successfullyPixOne.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = successfullyPixOne.gif; sourceTree = "<group>"; };
+		F871EF6B297058DB003FA683 /* successfullyPixTwo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = successfullyPixTwo.gif; sourceTree = "<group>"; };
 		F8AB54E7296F5133005BA288 /* Image-Gif-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image-Gif-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AB54EA296F5133005BA288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8AB54EC296F5133005BA288 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 		F8AB5504296F58B7005BA288 /* Json */ = {
 			isa = PBXGroup;
 			children = (
+				F871EF6A297058DB003FA683 /* successfullyPixOne.gif */,
+				F871EF6B297058DB003FA683 /* successfullyPixTwo.gif */,
 				F871EF6829705759003FA683 /* success.json */,
 			);
 			path = Json;
@@ -171,7 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8AB54F7296F5134005BA288 /* LaunchScreen.storyboard in Resources */,
+				F871EF6D297058DB003FA683 /* successfullyPixTwo.gif in Resources */,
 				F871EF6929705759003FA683 /* success.json in Resources */,
+				F871EF6C297058DB003FA683 /* successfullyPixOne.gif in Resources */,
 				F8AB54F2296F5133005BA288 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
